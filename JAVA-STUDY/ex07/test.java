@@ -8,7 +8,7 @@ public class test {
 
         for (int i = 0; i < array.length; i++) {  // i가 0일때 // i가 array의 배열수보다 클떄까지 // i에 1씩 더하자
             ary[array[i]]++; // array의 배열 갯수를 ary에 저장한다
-            System.out.println(ary[array[i]]); // 1 1 3 1이 나옴
+            System.out.println(ary[array[i]]); // 1 1 1 2 3 1이 나옴
 	}
 
 }
