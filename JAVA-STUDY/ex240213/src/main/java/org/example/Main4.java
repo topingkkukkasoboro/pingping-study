@@ -29,6 +29,7 @@ public class Main4 {
             }
         }
         System.out.println(sum);
+
     }
 
     private static int dpSum(Predicate<Integer> p, List<Integer> list) {
