@@ -37,11 +37,14 @@ public class Main2 {
     }
 
     private static String readFile(Repository repository, String filePath) throws GitAPIException {
-        try (Git git = new Git(repository)) {
+/*        try (Git git = new Git(repository)) {
             return new String(git
                     .getRepository()
                     .open()
                     .getBytes());
-        }
+        }*/
+
+        return filePath;
     }
+
 }
