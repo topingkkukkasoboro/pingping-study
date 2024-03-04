@@ -1,0 +1,28 @@
+package ex01;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        int h = sc.nextInt();
+        int m = sc.nextInt();
+        int a = 0;
+
+            h  = ((h * 60) + m)-45;
+            for (int i=0; i < h; h -=60){
+                a++;
+            }
+            if (a == 0){
+                System.out.print(a+23 + "시");
+                System.out.print(h+60 + "분" );
+            }
+            else {
+                System.out.print(a - 1 + "시");
+                System.out.print(h + 60 + "분" );
+            }
+
+        }
+
+    }
