@@ -1,0 +1,36 @@
+CREATE TABLE id."시간표"
+   (	"시간표" VARCHAR2(20 BYTE),
+	"상영관" VARCHAR2(20 BYTE),
+	"시작시간" DATE,
+	"종료시간" DATE,
+	"영화번호" NUMBER
+   ) SEGMENT CREATION IMMEDIATE
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 NOCOidRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+REM INSERTING into id."시간표"
+SET DEFINE OFF;
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('1','1관',to_date('09:20:00','HH24:MI:SS'),to_date('10:30:00','HH24:MI:SS'),1);
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('2','1관',to_date('11:00:00','HH24:MI:SS'),to_date('12:10:00','HH24:MI:SS'),1);
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('3','1관',to_date('12:40:00','HH24:MI:SS'),to_date('13:50:00','HH24:MI:SS'),1);
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('4','1관',to_date('14:20:00','HH24:MI:SS'),to_date('13:30:00','HH24:MI:SS'),1);
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('5','1관',to_date('16:00:00','HH24:MI:SS'),to_date('17:10:00','HH24:MI:SS'),1);
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('6','1관',to_date('17:40:00','HH24:MI:SS'),to_date('18:50:00','HH24:MI:SS'),1);
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('7','1관',to_date('19:20:00','HH24:MI:SS'),to_date('20:30:00','HH24:MI:SS'),1);
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('8','1관',to_date('21:00:00','HH24:MI:SS'),to_date('22:10:00','HH24:MI:SS'),1);
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('9','1관',to_date('22:40:00','HH24:MI:SS'),to_date('23:50:00','HH24:MI:SS'),1);
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('10','1관',to_date('00:20:00','HH24:MI:SS'),to_date('01:30:00','HH24:MI:SS'),1);
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('11','2관',to_date('09:20:00','HH24:MI:SS'),to_date('11:10:00','HH24:MI:SS'),2);
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('12','2관',to_date('11:40:00','HH24:MI:SS'),to_date('13:30:00','HH24:MI:SS'),2);
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('13','2관',to_date('14:00:00','HH24:MI:SS'),to_date('15:50:00','HH24:MI:SS'),2);
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('14','2관',to_date('16:20:00','HH24:MI:SS'),to_date('18:10:00','HH24:MI:SS'),2);
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('15','2관',to_date('18:40:00','HH24:MI:SS'),to_date('20:30:30','HH24:MI:SS'),2);
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('16','2관',to_date('22:00:00','HH24:MI:SS'),to_date('23:50:00','HH24:MI:SS'),2);
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('17','2관',to_date('00:20:00','HH24:MI:SS'),to_date('02:10:00','HH24:MI:SS'),2);
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('18','3관',to_date('09:20:00','HH24:MI:SS'),to_date('11:35:00','HH24:MI:SS'),3);
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('19','3관',to_date('12:05:00','HH24:MI:SS'),to_date('14:20:00','HH24:MI:SS'),3);
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('20','3관',to_date('14:50:00','HH24:MI:SS'),to_date('17:05:00','HH24:MI:SS'),3);
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('21','3관',to_date('17:35:00','HH24:MI:SS'),to_date('19:50:00','HH24:MI:SS'),3);
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('22','3관',to_date('20:20:00','HH24:MI:SS'),to_date('22:35:00','HH24:MI:SS'),3);
+Insert into id."시간표" ("시간표","상영관","시작시간","종료시간","영화번호") values ('23','3관',to_date('23:05:00','HH24:MI:SS'),to_date('01:20:00','HH24:MI:SS'),3);

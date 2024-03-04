@@ -1,0 +1,10 @@
+C:\Users\PC_DSKTOP2\Desktop\student\cs_work\labeladdbutton\labeladdbutton\bin\Debug\labeladdbutton.exe.config
+C:\Users\PC_DSKTOP2\Desktop\student\cs_work\labeladdbutton\labeladdbutton\bin\Debug\labeladdbutton.exe
+C:\Users\PC_DSKTOP2\Desktop\student\cs_work\labeladdbutton\labeladdbutton\bin\Debug\labeladdbutton.pdb
+C:\Users\PC_DSKTOP2\Desktop\student\cs_work\labeladdbutton\labeladdbutton\obj\Debug\labeladdbutton.csproj.AssemblyReference.cache
+C:\Users\PC_DSKTOP2\Desktop\student\cs_work\labeladdbutton\labeladdbutton\obj\Debug\labeladdbutton.Form1.resources
+C:\Users\PC_DSKTOP2\Desktop\student\cs_work\labeladdbutton\labeladdbutton\obj\Debug\labeladdbutton.Properties.Resources.resources
+C:\Users\PC_DSKTOP2\Desktop\student\cs_work\labeladdbutton\labeladdbutton\obj\Debug\labeladdbutton.csproj.GenerateResource.cache
+C:\Users\PC_DSKTOP2\Desktop\student\cs_work\labeladdbutton\labeladdbutton\obj\Debug\labeladdbutton.csproj.CoreCompileInputs.cache
+C:\Users\PC_DSKTOP2\Desktop\student\cs_work\labeladdbutton\labeladdbutton\obj\Debug\labeladdbutton.exe
+C:\Users\PC_DSKTOP2\Desktop\student\cs_work\labeladdbutton\labeladdbutton\obj\Debug\labeladdbutton.pdb
