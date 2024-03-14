@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace mdiproject.dbinfo
 {
-    internal class DBInfo
+    internal class DBINFO
     {
-        public static String dbstr = "data source = localhost; user id = id; password = 1234;";
+        public static String dbstr = "data source = localhost; user id = usertodo; password = 1234;";
         public static OracleConnection conn = null;
 
         public static OracleConnection openconnect()

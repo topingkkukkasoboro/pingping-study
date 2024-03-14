@@ -15,7 +15,7 @@ namespace mdiproject.dbinfo
         public bool insert(Users users)
         {
             try {
-            OracleConnection conn = DBInfo.openconnect();
+            OracleConnection conn = DBINFO.openconnect();
             String sql = "insert into users (idx,email,addr,password,name)" +
                          " values (usersidx.nextval,:email,:addr,:password,:name)";
             OracleCommand cmd = new OracleCommand(sql,conn);
@@ -25,7 +25,7 @@ namespace mdiproject.dbinfo
             cmd.Parameters.Add(":name", users.Name);
             cmd.ExecuteNonQuery();
             conn.Close();
-            DBInfo.closeconnect();
+            DBINFO.closeconnect();
             return true;
             }
             catch (Exception ex)
@@ -48,7 +48,7 @@ namespace mdiproject.dbinfo
         {
             try
             {
-                OracleConnection con = DBInfo.openconnect();
+                OracleConnection con = DBINFO.openconnect();
 
                 String sql = "select * from users";
 
@@ -60,7 +60,7 @@ namespace mdiproject.dbinfo
 
                 adapter.Fill(ds);
 
-                DBInfo.closeconnect();
+                DBINFO.closeconnect();
                 return ds.Tables[0];
             }catch (Exception e)
             {
