@@ -14,8 +14,8 @@ import java.time.LocalDateTime;
 @ControllerAdvice
 public class GlobalUserExceptionHandler extends ResponseEntityExceptionHandler {
 
-    @ExceptionHandler(LogicException.class)
-    public final ResponseEntity<ErrorResponse> hanleLogException(LogicException ex) {
+    @ExceptionHandler(LoginException.class)
+    public final ResponseEntity<ErrorResponse> hanleLogException(LoginException ex) {
 
         //ErrorCode errorCode = ex.getErrorCode();
 

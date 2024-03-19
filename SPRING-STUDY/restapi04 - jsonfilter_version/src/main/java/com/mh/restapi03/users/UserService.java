@@ -1,7 +1,7 @@
 package com.mh.restapi03.users;
 
 import com.mh.restapi03.exception.ErrorCode;
-import com.mh.restapi03.exception.LogicException;
+import com.mh.restapi03.exception.LoginException;
 import com.mh.restapi03.exception.UsersException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -21,7 +21,7 @@ public class UserService {
         User emailUser = userRepository.findByEmail(user.getEmail());
         if(emailUser != null){
             //System.out.println(user.getEmail() +"중복된 이메일이 있습니다");
-            throw new LogicException(ErrorCode.DUPLICATE);
+            throw new LoginException(ErrorCode.DUPLICATE);
         }
 
     User dbuser = userRepository.save(user);

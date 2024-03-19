@@ -9,11 +9,14 @@ import java.util.List;
 @Repository // primary키로 id 관리
 public interface UserRepository extends JpaRepository<User, Long> {
 
+    //select * from user where email =?을 만들어줌
+    public User findByEmail(String email);
 
-//select * from user where email =?을 만들어줌
-public User findByEmail(String email);
-// select * from user where username like %길동% 처럼 찾아줌
+    // select * from where email =? and password =?;
+    public User findByEmailAndPassword(String email, String password);
+
+    // select * from user where username like %길동% 처럼 찾아줌
     // select * from user where username like %길동% or email like %%
-public List<User> findByUsernameContainingOrEmailContaining(String username, String email);
+    public List<User> findByUsernameContainingOrEmailContaining(String username, String email);
 
 }
