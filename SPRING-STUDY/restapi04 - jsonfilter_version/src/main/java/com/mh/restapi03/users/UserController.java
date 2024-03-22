@@ -82,7 +82,7 @@ public class UserController {
     }
 
     @PutMapping()
-    public ResponseEntity<User> updateUser(@RequestBody @Valid UserDto userDto) {
+    public ResponseEntity<User> updateser(@RequestBody @Valid UserDto userDto) {
         ModelMapper mapper = new ModelMapper();
         User user = mapper.map(userDto, User.class);
         user.setWdate(LocalDateTime.now());
