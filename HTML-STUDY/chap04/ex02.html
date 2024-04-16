@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+*{
+    margin: 0; padding: 0;
+}
+
+div > div{width: 400; height: 200px;}
+div > div:nth-child(1){background-color: red; display: none;}
+div > div:nth-child(1){background-color: yellow; display: block;}
+div > div:nth-child(1){background-color: green;}
+div > div:nth-child(1){background-color: blue;}
+
+h1{display: inline; background-color: aliceblue; margin: 1rem; padding: 1rem;}
+h2{display: inline-block; background-color: aliceblue; margin: 1rem; padding: 1rem;}
+
+
+
+</style>
+
+</head>
+<body>
+    <div>
+        <div></div>
+        <div></div>
+        <div>
+            <h1></h1>
+            <h1></h1>
+            <h1></h1>
+        </div>
+        <div>
+            <h2></h2>
+            <h2></h2>
+            <h2></h2>
+        </div>
+    </div>
+</body>
+</html>
